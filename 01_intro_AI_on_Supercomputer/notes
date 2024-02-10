@@ -1,0 +1,21 @@
+#Homework1:
+Mini Batch Training:
+
+1. Using the sample function of pandas:
+    data_batch = data.sample(batch_size)
+
+2. Go through entire dataset in one epoch:
+    For one epoch, sample the dataset len(data)//batch_size
+    It will roughly go through the entire data.
+
+3. For each batches:
+    compute gradient for parameters (here, m, b)
+    update parameters m and b.
+
+3. After one epoch is completed store the loss value to plot.
+    
+
+
+
+
+ 
